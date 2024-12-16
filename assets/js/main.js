@@ -37,9 +37,6 @@ window.onload = function () {
 navSearchBtn.addEventListener('click', function (e) {
     e.preventDefault();
     let searchValue = navSearch.value;
-    // console.log('https://api.weatherapi.com/v1/forecast.json?key=ce2e576b68634d78985102848240811&q=' + searchValue + '&aqi=yes&alerts=yes&days=7');
-    // console.log(searchValue);
-
     searchdata(searchValue)
     navSearch.value = '';
 })
